@@ -7,12 +7,3 @@ C:\repositories\dotnetormbenchmarks\src\Benchmarks\BenchmarkRunner\bin\Debug\nun
 C:\repositories\dotnetormbenchmarks\src\Benchmarks\BenchmarkRunner\obj\Debug\BenchmarkRunner.csprojResolveAssemblyReference.cache
 C:\repositories\dotnetormbenchmarks\src\Benchmarks\BenchmarkRunner\obj\Debug\BenchmarkRunner.dll
 C:\repositories\dotnetormbenchmarks\src\Benchmarks\BenchmarkRunner\obj\Debug\BenchmarkRunner.pdb
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\bin\Debug\BenchmarkRunner.dll
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\bin\Debug\BenchmarkRunner.pdb
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\bin\Debug\Benchmarks.dll
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\bin\Debug\nunit.framework.dll
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\bin\Debug\Benchmarks.pdb
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\bin\Debug\nunit.framework.xml
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\obj\Debug\BenchmarkRunner.csprojResolveAssemblyReference.cache
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\obj\Debug\BenchmarkRunner.dll
-C:\repositories\dotnetormbenchmarks\src\BenchmarkRunner\obj\Debug\BenchmarkRunner.pdb
