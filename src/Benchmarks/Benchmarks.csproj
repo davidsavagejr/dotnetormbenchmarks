@@ -39,8 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BenchmarkResult.cs" />
+    <Compile Include="Deletes.cs" />
+    <Compile Include="FetchMany.cs" />
+    <Compile Include="FetchOne.cs" />
     <Compile Include="IBenchmark.cs" />
+    <Compile Include="Inserts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Runner.cs" />
+    <Compile Include="Updates.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
