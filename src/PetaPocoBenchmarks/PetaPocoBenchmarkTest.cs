@@ -22,10 +22,6 @@ namespace PetaPocoBenchmarks
                    s.Assembly(Assembly.GetExecutingAssembly());
                    s.AddAllTypesOf<IBenchmark>();
                }));
-            using (var db = new Database("testdb"))
-            {
-                db.FirstOrDefault<Person>("SELECT * FROM People"); // warmup
-            }
         }
 
         [Test]
