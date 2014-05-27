@@ -1,0 +1,14 @@
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\PetaPocoBenchmarks.dll.config
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\PetaPocoBenchmarks.dll
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\PetaPocoBenchmarks.pdb
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\Benchmarks.dll
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\nunit.framework.dll
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\Benchmarks.pdb
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\nunit.framework.xml
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\obj\Debug\PetaPocoBenchmarks.csprojResolveAssemblyReference.cache
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\obj\Debug\PetaPocoBenchmarks.dll
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\obj\Debug\PetaPocoBenchmarks.pdb
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\StructureMap.dll
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\StructureMap.pdb
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\StructureMap.Net4.dll
+C:\repositories\dotnetormbenchmarks\src\PetaPocoBenchmarks\bin\Debug\StructureMap.Net4.pdb

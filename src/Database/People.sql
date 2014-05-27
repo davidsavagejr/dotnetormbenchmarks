@@ -1,0 +1,12 @@
+﻿CREATE TABLE People (
+    Id UNIQUEIDENTIFIER NULL,
+    First VARCHAR(255) NULL,
+    Last VARCHAR(255) NULL,
+    Email VARCHAR(255) NULL,
+    Address VARCHAR(255) NULL,
+    City VARCHAR(255) NULL,
+    State VARCHAR(50) NULL,
+    Zip VARCHAR(10) NULL,
+    Phone VARCHAR(100) NULL
+);
+GO

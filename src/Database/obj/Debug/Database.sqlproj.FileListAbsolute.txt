@@ -1,0 +1,5 @@
+C:\repositories\dotnetormbenchmarks\src\Database\bin\Debug\Database.dacpac
+C:\repositories\dotnetormbenchmarks\src\Database\bin\Debug\Database.dll
+C:\repositories\dotnetormbenchmarks\src\Database\bin\Debug\Database.pdb
+C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\Database.dll
+C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\Database.pdb
