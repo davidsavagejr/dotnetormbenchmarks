@@ -3,7 +3,3 @@ C:\repositories\dotnetormbenchmarks\src\Benchmarks\Benchmarks\bin\Debug\Benchmar
 C:\repositories\dotnetormbenchmarks\src\Benchmarks\Benchmarks\obj\Debug\Benchmarks.csprojResolveAssemblyReference.cache
 C:\repositories\dotnetormbenchmarks\src\Benchmarks\Benchmarks\obj\Debug\Benchmarks.dll
 C:\repositories\dotnetormbenchmarks\src\Benchmarks\Benchmarks\obj\Debug\Benchmarks.pdb
-C:\repositories\dotnetormbenchmarks\src\Benchmarks\bin\Debug\Benchmarks.dll
-C:\repositories\dotnetormbenchmarks\src\Benchmarks\bin\Debug\Benchmarks.pdb
-C:\repositories\dotnetormbenchmarks\src\Benchmarks\obj\Debug\Benchmarks.dll
-C:\repositories\dotnetormbenchmarks\src\Benchmarks\obj\Debug\Benchmarks.pdb
