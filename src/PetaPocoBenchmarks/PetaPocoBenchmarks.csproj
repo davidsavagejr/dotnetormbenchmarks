@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="FetchMany.cs" />
     <Compile Include="FetchOne.cs" />
+    <Compile Include="Inserts.cs" />
     <Compile Include="Models\Generated\Database.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

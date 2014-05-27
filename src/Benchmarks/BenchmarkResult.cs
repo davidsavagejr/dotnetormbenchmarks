@@ -17,7 +17,7 @@ namespace Benchmarks
         public override string ToString()
         {
             var display = string.Format("{0}", _benchmark.Name).PadRight(50, '.');
-            return display += Result == TimeSpan.Zero ? "Not Implemented" : Result.TotalMilliseconds.ToString();
+            return display + (Result == TimeSpan.Zero ? "Not Implemented" : Result.TotalMilliseconds.ToString());
         }
     }
 }
