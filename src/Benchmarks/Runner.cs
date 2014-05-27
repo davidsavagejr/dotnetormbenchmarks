@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 
 namespace Benchmarks
 {
     public abstract class Runner
     {
         private readonly Stopwatch _timer;
+        private readonly IEnumerable<IBenchmark> _benchMarks;
 
         protected Runner()
         {
@@ -27,11 +29,11 @@ namespace Benchmarks
                 _timer.Start();
                 benchmark.Run();
                 _timer.Stop();
-                return new BenchmarkResult<IBenchmark>(_timer.Elapsed);
+                return new BenchmarkResult(benchmark.GetType(), _timer.Elapsed);
             }
             catch (NotImplementedException)
             {
-                return new BenchmarkResult<IBenchmark>(TimeSpan.Zero);
+                return new BenchmarkResult(benchmark.GetType(), TimeSpan.Zero);
             }
         }
     }

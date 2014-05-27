@@ -3,3 +3,7 @@ C:\repositories\dotnetormbenchmarks\src\Database\bin\Debug\Database.dll
 C:\repositories\dotnetormbenchmarks\src\Database\bin\Debug\Database.pdb
 C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\Database.dll
 C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\Database.pdb
+C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\Model.xml
+C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\refactor.xml
+C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\postdeploy.sql
+C:\repositories\dotnetormbenchmarks\src\Database\obj\Debug\predeploy.sql

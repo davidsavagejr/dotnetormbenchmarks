@@ -16,17 +16,8 @@ namespace Benchmarks
 
         public override string ToString()
         {
-            if(Result == TimeSpan.Zero)
-                return string.Format("{0} : Not Implemented");
-
-            return string.Format("{0} : {1} ms", _benchmark.Name, Result.TotalMilliseconds);
-        }
-    }
-
-    public class BenchmarkResult<T> : BenchmarkResult
-    {
-        public BenchmarkResult(TimeSpan result) : base(typeof(T), result)
-        {
+            var display = string.Format("{0}", _benchmark.Name).PadRight(50, '.');
+            return display += Result == TimeSpan.Zero ? "Not Implemented" : Result.TotalMilliseconds.ToString();
         }
     }
 }
