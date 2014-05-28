@@ -63,9 +63,10 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="People.sql" />
+    <Build Include="BlogPosts.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Insert-People.sql" />
+    <PostDeploy Include="StarterData.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />

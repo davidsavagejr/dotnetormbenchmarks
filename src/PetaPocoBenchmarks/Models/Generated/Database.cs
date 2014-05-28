@@ -138,13 +138,15 @@ namespace DB
 	[TableName("People")]
 
 
+	[PrimaryKey("Id", autoIncrement=false)]
+
 	[ExplicitColumns]
     public partial class Person : testdbDB.Record<Person>  
     {
 
 
 
-		[Column] public Guid? Id { get; set; }
+		[Column] public Guid Id { get; set; }
 
 
 
@@ -211,6 +213,42 @@ namespace DB
 
 
 		[Column] public Guid OperationKey { get; set; }
+
+
+
+	}
+
+    
+	[TableName("BlogPosts")]
+
+
+	[PrimaryKey("Id", autoIncrement=false)]
+
+	[ExplicitColumns]
+    public partial class BlogPost : testdbDB.Record<BlogPost>  
+    {
+
+
+
+		[Column] public Guid Id { get; set; }
+
+
+
+
+
+		[Column] public Guid PersonId { get; set; }
+
+
+
+
+
+		[Column] public string Subject { get; set; }
+
+
+
+
+
+		[Column] public string Body { get; set; }
 
 
 

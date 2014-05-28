@@ -6,6 +6,7 @@ using DB;
 using NUnit.Framework;
 using PetaPoco;
 using StructureMap;
+using System.Linq;
 
 namespace PetaPocoBenchmarks
 {
@@ -24,14 +25,37 @@ namespace PetaPocoBenchmarks
                }));
         }
 
+        private IEnumerable<IBenchmark> GetBenchMarksOfType<T>()
+        {
+            return ObjectFactory.GetAllInstances<IBenchmark>()
+                         .OfType<T>()
+                         .Select(b => b as IBenchmark);
+        }
+
         [Test]
-        public void Run()
+        public void RunInserts()
         {
             Console.WriteLine(String.Format("Benchmark").PadRight(50, '.') + "Result (ms)");
             Console.WriteLine(string.Format("").PadRight(60, '='));
-            foreach(var result in Run(ObjectFactory.GetAllInstances<IBenchmark>()))
+
+            foreach (var result in Run(GetBenchMarksOfType<IInsertData>()))
+                Console.WriteLine(result);
+
+            foreach (var result in Run(GetBenchMarksOfType<IUpdateData>()))
+                Console.WriteLine(result);
+
+            foreach (var result in Run(GetBenchMarksOfType<IQueryData>()))
+                Console.WriteLine(result);
+
+            foreach (var result in Run(GetBenchMarksOfType<IDeleteData>()))
                 Console.WriteLine(result);
                 
+        }
+
+        [Test, Explicit]
+        public void ScratchTest()
+        {
+            Console.WriteLine(Run(new Delete10RecordsUsingColumn()));
         }
     }
 

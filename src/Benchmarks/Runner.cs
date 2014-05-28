@@ -21,7 +21,7 @@ namespace Benchmarks
             return benchmarks.Select(Run);
         }
 
-        private BenchmarkResult Run(IBenchmark benchmark)
+        protected BenchmarkResult Run(IBenchmark benchmark)
         {
             try
             {

@@ -1,0 +1,18 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[BlogPosts] (Table)
+       [dbo].[People] (Table)
+       [dbo].[People].[IX_People_Email] (Index)
+       [dbo].[FK_BlogPosts_ToPeople] (Foreign Key)
+
+** Supporting actions

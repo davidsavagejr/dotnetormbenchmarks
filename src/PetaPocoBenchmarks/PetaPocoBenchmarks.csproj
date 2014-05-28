@@ -67,6 +67,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Deletes.cs" />
     <Compile Include="FetchMany.cs" />
     <Compile Include="FetchOne.cs" />
     <Compile Include="Inserts.cs" />
@@ -75,6 +76,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Database.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PersonPostRelator.cs" />
     <Compile Include="Models\PetaPoco.cs" />
     <Compile Include="PetaPocoBenchmarkTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BenchmarkResult.cs" />
+    <Compile Include="BenchmarkTags.cs" />
     <Compile Include="Deletes.cs" />
     <Compile Include="FetchMany.cs" />
     <Compile Include="FetchOne.cs" />
